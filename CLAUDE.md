@@ -4,13 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Running the Application
 
-```bash
-# From repo root
-./run.sh
-
-# Or manually
-cd backend && UV_HTTP_TIMEOUT=300 uv run uvicorn app:app --reload --port 8000
-```
+The user starts the server manually. Do not run it.
 
 App runs at `http://localhost:8000`. API docs at `http://localhost:8000/docs`.
 
