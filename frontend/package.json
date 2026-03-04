@@ -1,0 +1,17 @@
+{
+    "name": "course-materials-assistant-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for the RAG chatbot course materials assistant",
+    "private": true,
+    "scripts": {
+        "format": "prettier --write \"*.{js,css,html}\"",
+        "format:check": "prettier --check \"*.{js,css,html}\"",
+        "lint": "eslint *.js",
+        "check": "npm run lint && npm run format:check"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.2.5"
+    }
+}
