@@ -454,6 +454,9 @@ header h1 {
     letter-spacing: 0.5px;
     background: none;
     border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
     cursor: pointer;
     padding: 0.5rem 0;
     width: 100%;
